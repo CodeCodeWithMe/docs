@@ -55,7 +55,8 @@
         "introduction",
         "quickstart",
         "development",
-        "welcome"
+        "welcome",
+        "whatsapp-translator"
       ]
     },
     {
@@ -71,9 +72,7 @@
     },
     {
       "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
+      "pages": ["api-reference/introduction"]
     },
     {
       "group": "Endpoint Examples",

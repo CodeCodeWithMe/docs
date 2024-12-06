@@ -36,8 +36,13 @@
         "quickstart",
         "development",
         "welcome",
+        "discord-translator",
         "whatsapp-translator"
       ]
+    },
+    {
+      "group": "Changelog",
+      "pages": ["changelog/discord-translator", "changelog/whatsapp-translator"]
     },
     {
       "group": "Essentials",

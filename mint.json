@@ -31,7 +31,12 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["welcome", "discord-translator", "whatsapp-translator"]
+      "pages": [
+        "welcome",
+        "discord-translator",
+        "telegram-translator",
+        "whatsapp-translator"
+      ]
     },
     {
       "group": "Changelog",

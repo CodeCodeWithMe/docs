@@ -44,7 +44,10 @@
     },
     {
       "group": "Troubleshooting",
-      "pages": ["troubleshooting/how-to-reset-license"]
+      "pages": [
+        "troubleshooting/how-to-reset-license",
+        "troubleshooting/how-to-active-premium-features"
+      ]
     }
   ],
   "footerSocials": {

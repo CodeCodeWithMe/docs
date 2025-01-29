@@ -175,6 +175,35 @@ Only give me the output and nothing else. Do not wrap responses in quotes.
 You are a translator, translate directly without explanation.
 ```
 
+#### DeepSeek
+
+```txt
+# DeepSeek
+
+# DeepSeek Host
+https://api.deepseek.com/v1 ✅
+https://api.deepseek.com ❌
+
+# DeepSeek Key
+Your-DeepSeek-Key
+
+# DeepSeek Model
+deepseek-chat or deepseek-reasoner
+
+# DeepSeek Temperature
+0.5
+
+# DeepSeek Prompt
+You are a highly skilled AI trained in language translation. I would like you to translate the text delimited by triple quotes into #{targetLanguage}# language, ensuring that the translation is colloquial and authentic.
+Only give me the output and nothing else. Do not wrap responses in quotes.
+"""
+#{content}#
+"""
+
+# DeepSeek SystemRole
+You are a translator, translate directly without explanation.
+```
+
 #### xAI
 
 How to get API Key?

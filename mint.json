@@ -46,7 +46,8 @@
       "group": "Troubleshooting",
       "pages": [
         "troubleshooting/how-to-reset-license",
-        "troubleshooting/how-to-active-premium-features"
+        "troubleshooting/how-to-active-premium-features",
+        "troubleshooting/how-to-manually-update-extension"
       ]
     }
   ],

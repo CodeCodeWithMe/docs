@@ -41,7 +41,11 @@
     },
     {
       "group": "Changelog",
-      "pages": ["changelog/discord-translator", "changelog/whatsapp-translator"]
+      "pages": [
+        "changelog/discord-translator",
+        "changelog/whatsapp-translator",
+        "changelog/whatsapp-keyword-tracker"
+      ]
     },
     {
       "group": "Troubleshooting",

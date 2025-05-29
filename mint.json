@@ -44,6 +44,7 @@
       "pages": [
         "changelog/discord-translator",
         "changelog/whatsapp-translator",
+        "changelog/telegram-translator",
         "changelog/whatsapp-keyword-tracker"
       ]
     },

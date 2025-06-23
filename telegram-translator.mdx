@@ -1,0 +1,227 @@
+---
+title: "Telegram Translator"
+description: "Translate message in Telegram Web."
+icon: "telegram"
+---
+
+## Introduction
+
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/nLsrDn8IL-w?si=go1fIXmvdf9D_ql1"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
+
+## Download
+
+[Download for Chrome Web Store](https://chromewebstore.google.com/detail/geafhgkknjphedjfhcnampefjdebjbho?utm_source=item-share-cb)
+
+## Premium Plan
+
+| Feature                 | Free Plan | Premium Plan |
+| ----------------------- | --------- | ------------ |
+| Auto Translation        | 200 / Day | No Limit     |
+| Button Translation      | 200 / Day | No Limit     |
+| Quick Input Translation | 200 / Day | No Limit     |
+
+Click here to [upgrade to Premium](https://mooni.lemonsqueezy.com/buy/1c753c32-028c-41bf-a6f2-9fbe24598376) and enjoy unlimited translation.
+
+## Extension Options
+
+Personalized configurations for a better experience.
+
+### How To Open Options
+
+1. Click the extension icon in the Chrome toolbar
+2. Click the "Options" button in the popup
+3. You will be redirected to the options page
+4. You can also open the options page by visiting:
+   `chrome-extension://geafhgkknjphedjfhcnampefjdebjbho/options.html`
+
+<img className="rounded-xl" src="/images/tt/d2.png" width="50%" />
+
+## Auto Translation
+
+Real-time translation of Telegram messages.
+
+### Overview
+
+<video controls>
+  <source src="/videos/tt-v1.mp4" type="video/mp4" />
+</video>
+
+### Options
+
+![](/images/tt/d1.png)
+
+### How To Use
+
+Open the auto translation switch option in the extension options page. When you receive a message, it will be translated into the language you set in the options.
+
+## Button Translation
+
+You can click the button to translate chat message.
+
+### Overview
+
+<video controls>
+  <source src="/videos/tt-v2.mp4" type="video/mp4" />
+</video>
+
+### Options
+
+<img className="rounded-xl" src="/images/tt/d5.png" width="50%" />
+
+### How To Use
+
+Click the button to translate the chat message.
+
+<img className="rounded-xl" src="/images/tt/d3.png" width="50%" />
+
+## Quick Input Translation
+
+You can quickly translate the input content in the input box
+
+### Overview
+
+<video controls>
+  <source src="/videos/tt-v3.mp4" type="video/mp4" />
+</video>
+
+### Options
+
+<img className="rounded-xl" src="/images/tt/d4.png" width="50%" />
+
+### How To Use
+
+When you enter "Nice to see you /ja" in the input box, it will be translated into Japanese
+
+Input Content : Nice to see you
+
+End Symbol: /
+
+Language Code: ja
+
+<Tip>
+  "ja" is the language code for Japanese. To translate to another language,
+  simply replace "ko" with the corresponding language code.
+</Tip>
+
+<CardGroup cols="2">
+  <Card
+    title="Language Code Table"
+    href="https://hellohelloworld.notion.site/1458c9d5e4968007bbf8e0eddad702c7?v=454c1b3c7aae4c0a8a8955cc975f0a0c"
+  >
+    You can search for language codes in the list.
+  </Card>
+</CardGroup>
+
+## Translation Service
+
+### DeepL
+
+How to get API Key?
+
+1. Open the URL: https://www.deepl.com/en/your-account/summary
+2. Copy the API key
+   ![DeepL](/images/1.avif)
+
+```txt
+# DeepL
+
+# DeepL URL
+https://api.deepl.com/v2/translate
+
+# DeepL Key
+Your-DeepL-Key
+```
+
+### OpenAI
+
+How to get API Key?
+
+1. Open the URL: https://platform.openai.com/api-keys
+2. Create the API Key
+
+![](/images/2.png)
+
+```txt
+# OpenAI
+
+# OpenAI Host
+https://api.openai.com/v1 ✅
+https://api.openai.com ❌
+
+# OpenAI Key
+sk-Your-OpenAI-Key
+
+# OpenAI Model
+GPT-4o
+Get the model from: https://platform.openai.com/docs/models
+
+# OpenAI Temperature
+0.5
+
+# OpenAI Prompt
+You are a highly skilled AI trained in language translation. I would like you to translate the text delimited by triple quotes into #{targetLanguage}# language, ensuring that the translation is colloquial and authentic.
+Only give me the output and nothing else. Do not wrap responses in quotes.
+"""
+#{content}#
+"""
+
+# OpenAI SystemRole
+You are a translator, translate directly without explanation.
+```
+
+### xAI
+
+How to get API Key?
+
+1. Open the URL: https://console.x.ai/
+2. Create the API Key
+
+![](/images/3.png)
+
+```txt
+# xAI
+
+# xAI Host
+https://api.x.ai/v1 ✅
+https://api.x.ai ❌
+
+# xAI Key
+xai-Your-xAI-Key
+
+# xAI Model
+grok-beta or grok-vision-beta
+
+# xAI Temperature
+0.5
+
+# xAI Prompt
+You are a highly skilled AI trained in language translation. I would like you to translate the text delimited by triple quotes into #{targetLanguage}# language, ensuring that the translation is colloquial and authentic.
+Only give me the output and nothing else. Do not wrap responses in quotes.
+"""
+#{content}#
+"""
+
+# xAI SystemRole
+You are a translator, translate directly without explanation.
+```
+
+### Notice
+
+<Tip>
+  If you want to modify the prompt, remember to place `#{targetLanguage}#` and
+  `#{content}#` in the appropriate positions.
+
+`#{targetLanguage}#`: The target
+language of the translated content
+
+`#{content}#`: What needs to be translated
+
+</Tip>

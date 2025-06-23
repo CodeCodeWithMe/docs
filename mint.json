@@ -1,0 +1,63 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "CodeCode.Me",
+  "logo": {
+    "dark": "/logo/icon.png",
+    "light": "/logo/icon.png"
+  },
+  "favicon": "/logo/icon.png",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373",
+    "anchors": {
+      "from": "#0D9373",
+      "to": "#07C983"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:chrome@codecode.me"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Contact Us",
+      "icon": "envelope",
+      "url": "mailto:chrome@codecode.me"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "welcome",
+        "discord-translator",
+        "telegram-translator",
+        "quick-input-translator",
+        "whatsapp-translator",
+        "whatsapp-keyword-tracker"
+      ]
+    },
+    {
+      "group": "Changelog",
+      "pages": [
+        "changelog/discord-translator",
+        "changelog/whatsapp-translator",
+        "changelog/telegram-translator",
+        "changelog/whatsapp-keyword-tracker"
+      ]
+    },
+    {
+      "group": "Troubleshooting",
+      "pages": [
+        "troubleshooting/how-to-reset-license",
+        "troubleshooting/how-to-active-premium-features"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "website": "https://codecode.me"
+  }
+}

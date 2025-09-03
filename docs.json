@@ -1,0 +1,70 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "CodeCode.Me Docs",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
+  },
+  "favicon": "/logo/icon.png",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "welcome",
+              "discord-translator",
+              "telegram-translator",
+              "quick-input-translator",
+              "whatsapp-translator",
+              "whatsapp-keyword-tracker"
+            ]
+          },
+          {
+            "group": "Changelog",
+            "pages": [
+              "changelog/discord-translator",
+              "changelog/whatsapp-translator",
+              "changelog/telegram-translator",
+              "changelog/whatsapp-keyword-tracker"
+            ]
+          },
+          {
+            "group": "Troubleshooting",
+            "pages": [
+              "troubleshooting/how-to-reset-license",
+              "troubleshooting/how-to-active-premium-features"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": []
+    }
+  },
+  "logo": {
+    "dark": "/logo/icon.png",
+    "light": "/logo/icon.png"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:chrome@codecode.me"
+      }
+    ]
+  },
+  "contextual": {
+    "options": []
+  },
+  "footer": {
+    "socials": {
+      "website": "https://codecode.me"
+    }
+  }
+}

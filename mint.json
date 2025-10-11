@@ -18,14 +18,14 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:chrome@codecode.me"
+      "url": "mailto:support@codecode.me"
     }
   ],
   "anchors": [
     {
       "name": "Contact Us",
       "icon": "envelope",
-      "url": "mailto:chrome@codecode.me"
+      "url": "mailto:support@codecode.me"
     }
   ],
   "navigation": [

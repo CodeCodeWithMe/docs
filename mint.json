@@ -50,10 +50,10 @@
       ]
     },
     {
-      "group": "News",
+      "group": "Notice",
       "pages": [
-        "news/migration-from-lemon-squeezy-to-creem",
-        "news/discord-translator-license-system-update"
+        "notice/migration-from-lemon-squeezy-to-creem",
+        "notice/discord-translator-license-system-update"
       ]
     },
     {

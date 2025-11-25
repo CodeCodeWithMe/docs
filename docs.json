@@ -1,27 +1,35 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "almond",
   "name": "CodeCode.Me Docs",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/logo/icon.png",
+  "favicon": "/favicon.png",
   "navigation": {
     "tabs": [
       {
         "tab": "Guides",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Getting Started",
             "pages": [
-              "welcome",
+              "index",
+              "contact",
+              "faq",
               "discord-translator",
-              "telegram-translator",
-              "quick-input-translator",
-              "whatsapp-translator",
-              "whatsapp-keyword-tracker"
+              "discord-translator-beta",
+              "whatsapp-translator"
+            ]
+          },
+          {
+            "group": "Product Guides",
+            "pages": [
+              "products/discord-translator",
+              "products/discord-translator-beta",
+              "products/whatsapp-translator"
             ]
           },
           {
@@ -34,19 +42,19 @@
             ]
           },
           {
-            "group": "News",
-            "pages": [
-              "news/migration-from-lemon-squeezy-to-creem",
-              "news/discord-translator-license-system-update"
-            ]
-          },
-          {
             "group": "Troubleshooting",
             "pages": [
               "troubleshooting/how-to-reset-license",
               "troubleshooting/how-to-active-premium-features",
               "troubleshooting/how-to-check-the-product-version",
               "troubleshooting/how-to-update-the-product-to-the-latest-version"
+            ]
+          },
+          {
+            "group": "News",
+            "pages": [
+              "news/migration-from-lemon-squeezy-to-creem",
+              "news/discord-translator-license-system-update"
             ]
           }
         ]
@@ -57,14 +65,14 @@
     }
   },
   "logo": {
-    "dark": "/logo/icon.png",
-    "light": "/logo/icon.png"
+    "light": "/logo/icon.png",
+    "dark": "/logo/icon.png"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:chrome@codecode.me"
+        "href": "mailto:support@codecode.me"
       }
     ]
   },
@@ -73,7 +81,7 @@
   },
   "footer": {
     "socials": {
-      "website": "https://codecode.me"
+      "x": "https://x.com/codecodeme"
     }
   }
 }
